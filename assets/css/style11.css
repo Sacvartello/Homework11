@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    font-family: Inter;
+    font-size: 16px;
+}
+header{
+    color: #35414B;
+}
+.log-in:link, .log-in:visited{
+    color: #35414B;
+}
+.get-start-free:link, .get-start-free:visited{
+    color: #794CFF;
+    background-color: #ECE5FF;
+    border-radius: 5px;
+    padding: 10px;
+}
+.page-menu{
+    height: 100px;
+
+    display: grid;
+    grid-template-columns: 100px 600px 200px ;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+.name{
+    font-size: 1.5rem;
+    font-family: Josefin Sans;
+    font-weight: 500;
+    color: #1D2830;
+}
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.subscribe{
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 125px 175px 10px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.save-90{
+    color: white;
+    background-color: #81C43B;
+    padding: 10px;
+    border-radius: 50px;
+}
+.get-account{
+    color: #35414B;
+    background-color: #F2F9EB;
+    padding: 10px;
+    border-radius: 50px;
+}
+.title{
+    text-align: center;
+    color: #4E5A65;
+
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 175px 65px 70px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+    color: #35414B;
+    padding: 10px;
+    font-weight: bolder;
+}
+.registration{
+    display: grid;
+    grid-template-columns: 320px 170px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.email-of-company{
+    color: #97A5B5;
+    background-color: white;
+    border: 1px solid #E1E5EA;
+    padding: 15px 100px 15px 15px;
+}
+.try-it{
+    color: white;
+    background-color: #794CFF;
+    padding: 17px 45px;
+    border-radius: 5px;
+}
+.overview{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 655px;
+    justify-items: center;
+}
+.overview-img{
+    width: 920px;
+    height: 655px;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.trust-company{
+    text-align: center;
+    padding-top:75px ;
+}
+.company-icons{
+    display: grid;
+    grid-template-columns: repeat(5, 85px);
+    grid-template-rows: 50px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.airbnb{
+    color: #FF5A5F;
+    font-weight: bold;
+}
+.facebook{
+    color: #3B5998;
+    font-weight: bolder;
+}
+.hubspot{
+    color: #45535E;
+    font-weight: bolder;
+}
+.hubspot-icon{
+    color: #F8761F;
+}
+.slack{
+    color: black;
+    font-weight: bolder;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 150px);
+    grid-template-areas: 
+    'a1 a1 a1'
+    'b1 b2 b3'
+    'b4 b5 b6';
+    justify-content: center;
+}
+.cards :nth-child(1){
+    grid-area: a1;
+    text-align: center;
+    align-self: center;
+
+    font-weight:bolder ;
+    font-size: 2.5rem;
+}
+.cards:nth-child(2){
+    grid-area: b1;
+}
+.team-reports-icon{
+    color: #F49C4E;
+    background-color: #FEF6EE;
+    padding: 15px;
+    border-radius: 50%;
+}
+.collabobrative-icon{
+    color: #23CEC9;
+    background-color: #E8FAFA;
+    padding: 15px;
+    border-radius: 50%;
+}
+.learninig-center-icon{
+    color: #B84DC5;
+    background-color: #F7EBF9;
+    padding: 15px;
+    border-radius: 50%;
+}
+.anonymus-messaging-icon{
+    color: #F65D88;
+    background-color: #FFEFF3;
+    padding: 15px;
+    border-radius: 50%;
+}
+.conversation-engine-icon{
+    color: #5526B3;
+    background-color: #EDE8F7;
+    padding: 15px;
+    border-radius: 50%;
+}
+.exclusives-manager-icon{
+    color: #F4A45D;
+    background-color: #FEF5EC;
+    padding: 15px;
+    border-radius: 50%;
+}
+.card-title{
+    color: #35414B;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.card-paragraph{
+    color: #4E5A65;
+    font-weight: 300;
+}
+.custumers-love-working{
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.custumers-love-working-title{
+    font-size: 2.5rem;
+    color: #35414B;
+    font-weight: bold;
+}
+.custumers-love-working-paragraph{
+    font-size: 1.1rem;
+    color: #4E5A65;
+}
+.profils{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    justify-content: center;
+    justify-items: center;
+
+    padding: 40px;
+}
+.profil-phote{
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.customer{
+    display: grid;
+    grid-template-columns: 50px 150px;
+    align-items: center;
+    justify-items: center;
+}
+.employers-trust{
+    background-color: #796EFF;
+    width: 1120px;
+    height: 225px;
+    border-radius: 10px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: 450px 200px 200px;
+    grid-template-rows: 100px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.trust-84{
+    color: white;
+    font-size: 2rem;
+}
+.get-from-google-play,.down-from-apple-store {
+    display: grid;
+    grid-template-columns: 35px 135px;
+    align-items: center;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.app-store-icon, .google-play-icon{
+    font-size: 32px;
+}
+.about-company{
+    background-color: #1D2830;
+    color: white;
+    height: 300px;
+    line-height: 2;
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px 300px;
+    grid-template-rows: repeat(5, 30px);
+    grid-template-areas: 
+    'company suport legal install'
+    'about help cookies google'
+    'blog safety privacy google'
+    'careers community terms apple'
+    'contact . . apple';
+    justify-content: center;
+    gap: 75px;
+
+}
+.install-from-google-play, .install-from-apple-store{
+    display: grid;
+    grid-template-columns: 35px 110px;
+    align-items: center;
+    justify-items: center;
+
+    color: white;
+    background-color: black;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    line-height: 1;
+}
+.get-in-black, .down-from-black{
+    font-size: 0.7rem;
+}
+.install-app{
+    display: grid;
+    gap: 15px;
+}
+.end{
+    background-color: #1D2830;
+    border-top: 1px solid white;
+    height: 50px;
+    color: #D9DBE1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.instagram-icon,
+.basketball-icon,
+.twitter-icon,
+.youtube-icon{
+    color: white;
+    background-color: #414141;
+    border-radius: 50%;
+    padding: 5px;
+}
